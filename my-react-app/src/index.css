@@ -1,3 +1,4 @@
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -5,7 +6,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #fdffe6;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,6 +23,7 @@ a:hover {
   color: #535bf2;
 }
 
+
 body {
   margin: 0;
   display: flex;
@@ -31,9 +33,40 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 45px;
+  font-family: Lucida Console;
+  -webkit-text-fill-color: rgb(255, 251, 198);
+  -webkit-text-stroke: 2px rgb(250, 120, 142);
+  line-height: 2.2;
+  margin: 25px;
+  padding: 35px;
+  border: 5px solid rgb(245, 137, 160);
+  height: 10vh;
+  width: 80vh;
+  background-image: url("https://i.pinimg.com/originals/a7/85/40/a78540c4c3fa6579fa8c293508e65918.jpg");
 }
+
+nav {
+
+  font-size: 1.2em;
+  font-family: Lucida Console;
+  color: rgb(31, 94, 31);
+  line-height: 1.1;
+  margin: 0px;
+  padding: 0px;
+  height: 80vh;
+
+
+}
+
+p{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+
+
+}
+
+
 
 button {
   border-radius: 8px;

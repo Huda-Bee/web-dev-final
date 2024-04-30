@@ -1,7 +1,7 @@
 function Header(){
     return(
         <header>
-            <h1>My Website</h1>
+            <h1>Huda & Amarrah's Food Blog</h1>
             <nav>
                 <ul>
                     <li><a href="#">home</a></li>

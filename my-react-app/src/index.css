@@ -77,7 +77,7 @@ p{
   padding: 60px;
   border: 8px solid rgb(245, 137, 160);
   border-image: url("https://i.pinimg.com/736x/13/d3/ee/13d3eec920143b0cb3ea3aaac8e97ce3.jpg") 30 round;
-  border-image-width: 35px;
+  border-image-width: 26px;
   outline:  8px solid rgb(255, 164, 164);
   height: 50vh;
   width: 60vh;
@@ -101,7 +101,7 @@ p{
   border: 5px solid  rgb(245, 137, 160);
   border-image: url("https://i.pinimg.com/736x/ea/54/54/ea5454e67e5841ff5d299247b67ac5c1.jpg") 30 round;
   outline:  8px solid rgb(255, 164, 164);
-  border-image-width: 35px;
+  border-image-width: 25px;
   height: 20vh;
   width: 60vh;
 }

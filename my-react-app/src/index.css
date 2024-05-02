@@ -24,15 +24,16 @@ a:hover {
 
 body {
   margin: 0 auto;
-  min-height: 1080px;
+  min-height:120vh;
 }
 
 
 h1 {
   font-size: 10vh;;
-  font-family: Lucida Console;
-  -webkit-text-fill-color: rgb(255, 205, 205);
-  -webkit-text-stroke: 0.5vh rgb(250, 120, 142);
+  font-family: monospace;
+  -webkit-text-fill-color: rgb(255, 248, 205);
+  -webkit-text-stroke: 0.15vh rgb(171, 151, 154);
+  padding-top: 3vh;
   line-height: 20vh;
   margin-top: 5vh;
   margin-left: auto;
@@ -40,15 +41,17 @@ h1 {
   text-align:center;
   border: 5px ridge rgb(245, 137, 160);
   background-color: rgb(255, 245, 239);
-  width: 160vh;
+  background-image: url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\banner3.gif") ;
+  width: 155vh;
 }
 
 h2{
   font-size: 5.7vh;
-  font-family: 'Courier New', Courier, monospace;
-  -webkit-text-fill-color: rgb(255, 205, 205);
-  -webkit-text-stroke: 0.25vh rgb(250, 120, 142);
-  margin-left: 1vh;
+  font-family: 'monospace';
+  -webkit-text-fill-color: rgb(253, 190, 190);
+  -webkit-text-stroke: 0.1vh rgb(250, 120, 142);
+  text-shadow: 20vh gray;
+  margin-left: -5vh;
   text-align:left;
   width: 20vh;
   height: 10vh;
@@ -71,11 +74,11 @@ nav {
   font-family: Lucida Console;
   color: rgb(151, 9, 9);
   position:absolute;
-  left: 2vh;
-  top: 30vh;
+  left: 18vh;
+  top: 37vh;
   width: 16vh;
-  height: 80vh;
-  background-image: url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\images\headeryellow.jpg");
+  height: 100vh;
+  background: rgb(255, 226, 210);
   border-style: ridge;
   border-color:  rgb(255, 163, 186);
   border-width: 0.87vh;
@@ -96,30 +99,44 @@ p{
   line-height: 3.5;
   text-align:left;
   background-color:rgb(255, 245, 216);
+  margin-top: 11.4vh;
   border-style: ridge;
   border-color:  rgb(255, 163, 186);
   border-width: 0.87vh;
   outline:  8px solid rgb(255, 226, 192);
-  height: 50vh;
-  width: 65vh;
+  height: 51.5vh;
+  width: 25vh;
   padding: 5vh;
 }
 
 .graphic {
   width: 60vh;
-  height: 2.6vh;
+  height: 2.4vh;
   position:absolute;
   right: 8.2vh;
   top: 35vh;
 }
 
-
 .graphic2 {
   width: 60vh;
-  height: 2.6vh;
+  height: 2.4vh;
   position:absolute;
   right: 66vh;
   top: 35vh;
+}
+
+#strawberry{
+  width: 120vh;
+  height: 93vh;
+  position:absolute;
+  background-image: url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\images\strawberry.png");
+  background-position: 6% 0%;
+  border: solid 1.2vh rgb(255, 162, 179);
+  border-radius: 30px;
+  box-shadow: 20vh gray;
+  right: 17vh;
+  top: 43vh;
+
 }
 
 #two{
@@ -129,14 +146,14 @@ p{
   text-align: left;
   font-size: 1.6vh;
   padding: 3vh;
-  margin-top: 13vh;
+  margin-top: 23.5vh;
   background-color:rgb(255, 245, 216);
   border-width: 0.87vh;
   border-style: ridge;
   border-color: rgb(255, 163, 186);
   outline:  8px solid rgb(255, 226, 192);
   height: 20vh;
-  width: 67vh;
+  width: 61vh;
 }
 
 #bottom-text{
@@ -152,8 +169,8 @@ p{
   border-style: ridge;
   border-color: rgb(255, 163, 186);
   outline:  8px solid rgb(255, 226, 192);
-  height: 56vh;
-  width: 67vh;
+  height: 43vh;
+  width: 61vh;
 }
 
 

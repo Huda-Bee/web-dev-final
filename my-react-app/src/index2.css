@@ -1,24 +1,71 @@
 .middle{
     position: absolute;
-    left: 25vh;
-    top: 28vh;
-
+    left: 49vh;
+    top: 27vh;
 }
 
 .right{ 
     position:absolute;
     top:39vh;
-    left: 105vh;
+    left: 123vh;
 }
 
-.textbox {
-    background-image: url("my-react-app\src\assets\images\strawberry.png");
-    height: 40vh;
-    width: 40vh;
-    position:absolute;
-    top:39vh;
-    left: 105vh;
+#buttons li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 7vh;
+    background-color: #e2c1d3;
+    margin: 2vh;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    margin-left: -3.8vh;
+    margin-top: -1.5vh;
+    width: 15.6vh;
+  }
+
+
+
+.box19 { 
+    margin : 1em auto ; 
+    width : 90%;
+    height: 50vh;
 }
+
+.u01 { 
+    background : url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\f-ue.gif") repeat-x ; 
+    height:32px ; 
+    margin:0 32px } 
+.s01 { 
+    background : url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\f-sita.gif") repeat-x ; 
+    height:32px ; 
+    margin:0 32px;
+ } 
+.box-top { 
+    background-image : url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\f-kado1.gif"), url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\f-kado2.gif"); 
+    background-position:top left , top right ; 
+    background-repeat:no-repeat , no-repeat ; 
+    height : 32px } 
+    
+.box-center { 
+    background-image : url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\f-migi.gif"), url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\f-hidari.gif"); 
+    background-position : top right , top left ; 
+    background-repeat : repeat-y , repeat-y
+} 
+     
+.box-inner { 
+    background : #fff ;  
+    margin: 0 32px;
+    padding: 10px
+} 
+
+.box-bottom { 
+    background-image : url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\f-kado3.gif"), url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\f-kado4.gif"); 
+    background-position : top left , top right ; 
+    background-repeat : no-repeat , no-repeat ; 
+    height: 32px; 
+} 
+
+
 
 
   

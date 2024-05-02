@@ -1,15 +1,10 @@
 function Header(){
     return(
         <header>
-            <h1>Huda & Amarrah's Blog</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">services</a></li>
-                    <li><a href="#">contact</a></li>
-                </ul>
-            </nav>
+            <h1>Amarrah's Blog</h1>
+            <div class="middle">
+            <h2>Welcome!</h2>
+            </div>
         </header>
     )
 }

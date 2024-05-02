@@ -1,0 +1,24 @@
+.middle{
+    position: absolute;
+    left: 25vh;
+    top: 28vh;
+
+}
+
+.right{ 
+    position:absolute;
+    top:39vh;
+    left: 105vh;
+}
+
+.textbox {
+    background-image: url("my-react-app\src\assets\images\strawberry.png");
+    height: 40vh;
+    width: 40vh;
+    position:absolute;
+    top:39vh;
+    left: 105vh;
+}
+
+
+  

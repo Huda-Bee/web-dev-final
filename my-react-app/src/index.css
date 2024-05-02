@@ -39,8 +39,7 @@ h1 {
   margin-right: auto;
   text-align:center;
   border: 5px ridge rgb(245, 137, 160);
-  background-color:rgb(255, 236, 240);
-  height: 20vh;
+  background-color: rgb(255, 245, 239);
   width: 160vh;
 }
 
@@ -49,10 +48,7 @@ h2{
   font-family: 'Courier New', Courier, monospace;
   -webkit-text-fill-color: rgb(255, 205, 205);
   -webkit-text-stroke: 0.25vh rgb(250, 120, 142);
-  margin: 20 auto;
-  margin-left: 26vh;
-  margin-top: 0vh;
-  margin-bottom:0vh;
+  margin-left: 1vh;
   text-align:left;
   width: 20vh;
   height: 10vh;
@@ -60,6 +56,14 @@ h2{
 
 ul{
   line-height: 2.5;
+  display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
 }
 
 nav {
@@ -85,15 +89,12 @@ p{
   margin-left: 2vh;
 }
 
-.one{
+#one{
   font-family:'Lucida Console';
   font-size: 2.25vh;
   color: rgb(116, 97, 100);
   line-height: 3.5;
   text-align:left;
-  position:absolute;
-  top:39vh;
-  left: 105vh;
   background-color:rgb(255, 245, 216);
   border-style: ridge;
   border-color:  rgb(255, 163, 186);
@@ -101,8 +102,8 @@ p{
   outline:  8px solid rgb(255, 226, 192);
   height: 50vh;
   width: 65vh;
+  padding: 5vh;
 }
-
 
 .graphic {
   width: 60vh;
@@ -112,6 +113,7 @@ p{
   top: 35vh;
 }
 
+
 .graphic2 {
   width: 60vh;
   height: 2.6vh;
@@ -120,24 +122,38 @@ p{
   top: 35vh;
 }
 
-
-.two{
+#two{
   font-family:'Courier New', Courier, monospace, bold;
   text-align:center;
   line-height: 2;
   text-align: left;
   font-size: 1.6vh;
-  position:absolute;
-  top:39.8vh;
-  left: 25vh;
-  padding: 60px;
+  padding: 3vh;
+  margin-top: 13vh;
   background-color:rgb(255, 245, 216);
   border-width: 0.87vh;
   border-style: ridge;
   border-color: rgb(255, 163, 186);
   outline:  8px solid rgb(255, 226, 192);
   height: 20vh;
-  width: 60vh;
+  width: 67vh;
+}
+
+#bottom-text{
+  font-family:'Courier New', Courier, monospace, bold;
+  text-align:center;
+  line-height: 2;
+  text-align: left;
+  font-size: 1.6vh;
+  padding: 3vh;
+  margin-top: 5vh;
+  background-color:rgb(255, 245, 216);
+  border-width: 0.87vh;
+  border-style: ridge;
+  border-color: rgb(255, 163, 186);
+  outline:  8px solid rgb(255, 226, 192);
+  height: 56vh;
+  width: 67vh;
 }
 
 

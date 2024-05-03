@@ -1,14 +1,17 @@
 .middle{
     position: absolute;
-    left: 49vh;
-    top: 27vh;
-}
+    top: 50%; left: 35%; transform: translate(-50%,-50%);
 
+
+}
 .right{ 
     position:absolute;
-    top:39vh;
-    left: 123vh;
+    top: 50%; left: 80%; transform: translate(-50%,-50%);
+
+ 
 }
+
+
 
 #buttons li {
     float: left;
@@ -23,12 +26,13 @@
     width: 15.6vh;
   }
 
-
+ 
 
 .box19 { 
-    margin : 1em auto ; 
-    width : 90%;
-    height: 50vh;
+    margin: 0 auto; padding: 0 auto;
+    width : 67%;
+    height: 70%;
+    position: relative;  
 }
 
 .u01 { 
@@ -49,13 +53,15 @@
 .box-center { 
     background-image : url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\f-migi.gif"), url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\f-hidari.gif"); 
     background-position : top right , top left ; 
-    background-repeat : repeat-y , repeat-y
+    background-repeat : repeat-y , repeat-y;
+    height: 130vh;
 } 
      
 .box-inner { 
     background : #fff ;  
     margin: 0 32px;
-    padding: 10px
+    height: 100%;
+
 } 
 
 .box-bottom { 
@@ -66,6 +72,10 @@
 } 
 
 
+.background.one {
+    height: 100vh;
+    width: 100vh;
+    position: static;
+    float: center;
 
-
-  
+}

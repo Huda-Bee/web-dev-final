@@ -24,65 +24,74 @@ a:hover {
 
 body {
   margin: 0 auto;
-  min-height:120vh;
+  min-height: 150vh; 
 }
 
 
 h1 {
-  font-size: 10vh;;
-  font-family: monospace;
-  -webkit-text-fill-color: rgb(255, 248, 205);
-  -webkit-text-stroke: 0.15vh rgb(171, 151, 154);
+  font-size: 9vh;;
+  font-family: 'Lucida Handwriting';
+  -webkit-text-fill-color: rgb(128, 110, 89);
+  -webkit-text-stroke: 0.2vh rgb(117, 84, 89);
   padding-top: 3vh;
   line-height: 20vh;
   margin-top: 5vh;
   margin-left: auto;
   margin-right: auto;
   text-align:center;
-  border: 5px ridge rgb(245, 137, 160);
+  border: 1vh ridge rgb(194, 154, 145); border-radius: 15px;
   background-color: rgb(255, 245, 239);
-  background-image: url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\banner3.gif") ;
+  background-image: url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\banner1.gif") ;
   width: 155vh;
 }
 
 h2{
-  font-size: 5.7vh;
+  font-size: 6vh;
   font-family: 'monospace';
   -webkit-text-fill-color: rgb(253, 190, 190);
   -webkit-text-stroke: 0.1vh rgb(250, 120, 142);
   text-shadow: 20vh gray;
-  margin-left: -5vh;
+  position: absolute;
+  top: 37%; left: 30%; transform: translate(-50%, -50%);
+  z-index: 1;
   text-align:left;
   width: 20vh;
   height: 10vh;
+  margin-top: 12vh;
+  margin-bottom: -15vh;
 }
 
 ul{
+  width: 100%;
   line-height: 2.5;
   display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    margin-block-start: 10%;
+    margin-block-end: 1%;
+    margin-inline-start: 1%;
+    margin-inline-end: 1%;
+    padding-inline-start: 25%;
     unicode-bidi: isolate;
 }
 
-nav {
-  font-size: 1.2em;
+.navigation {
+  font-size: 100%;
   font-family: Lucida Console;
+  text-align: center;
   color: rgb(151, 9, 9);
   position:absolute;
-  left: 18vh;
-  top: 37vh;
-  width: 16vh;
-  height: 100vh;
+  overflow: hidden; 
+  top: 50%; left: 10%; transform: translate(-50%, -50%);
+  width: 12%;
+  height: 90%;
+  margin: 0 auto; padding: 0 auto;
   background: rgb(255, 226, 210);
   border-style: ridge;
   border-color:  rgb(255, 163, 186);
   border-width: 0.87vh;
   outline:  8px solid rgb(255, 226, 192);
+  box-sizing: border-box;
+  float:left;
 }
 
 p{
@@ -93,84 +102,100 @@ p{
 }
 
 #one{
-  font-family:'Lucida Console';
-  font-size: 2.25vh;
-  color: rgb(116, 97, 100);
-  line-height: 3.5;
-  text-align:left;
+  font-family:'Lucida Console'; font-size: 2.25vh; color: rgb(116, 97, 100);
+  line-height: 3.5; text-align:left;
+  position: absolute; top:37.1%; left: 81%; transform: translate(-50%,-50%);
   background-color:rgb(255, 245, 216);
-  margin-top: 11.4vh;
   border-style: ridge;
   border-color:  rgb(255, 163, 186);
   border-width: 0.87vh;
   outline:  8px solid rgb(255, 226, 192);
-  height: 51.5vh;
-  width: 25vh;
-  padding: 5vh;
+  height: 63.8%;
+  width: 17.8%;
+  padding: 4%;
 }
 
-.graphic {
-  width: 60vh;
-  height: 2.4vh;
-  position:absolute;
-  right: 8.2vh;
-  top: 35vh;
+#divi-one {
+  background-image: url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\choco.gif");
+  position: absolute;
+  top: 40%; left: 46.5%; transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 45%;
+  height:2.5%;
 }
 
-.graphic2 {
-  width: 60vh;
-  height: 2.4vh;
-  position:absolute;
-  right: 66vh;
-  top: 35vh;
+marquee {
+  background: rgb(255, 200, 200);
+  color: rgb(5, 4, 4);
+  border: dashed 0.2vh pink; ;
+  border-radius: 15px;
+  position: absolute;
+  top: 9%; left:69%; transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 52%;
+  height: 2.5%;
 }
+
+#me{
+  float: left;
+  line-height:0.3;
+  text-align: center; font: monospace; font-size: 17px; 
+}
+
+#mouse {
+  float:left;
+  height: 34px;
+  width: 32px;
+
+}
+
 
 #strawberry{
-  width: 120vh;
-  height: 93vh;
   position:absolute;
-  background-image: url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\images\strawberry.png");
+  overflow: hidden; 
+  top: 53.5%; left: 50%; transform: translate(-40%, -50%);
+  width: 75%;
+  height: 83%;
+  margin: 0 auto; padding: 0 auto;
+  background-image: url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\wallpaper1.gif");
   background-position: 6% 0%;
-  border: solid 1.2vh rgb(255, 162, 179);
-  border-radius: 30px;
-  box-shadow: 20vh gray;
-  right: 17vh;
-  top: 43vh;
-
+  border: ridge 1vh rgb(194, 154, 145);
 }
+
+
+
 
 #two{
   font-family:'Courier New', Courier, monospace, bold;
-  text-align:center;
   line-height: 2;
   text-align: left;
   font-size: 1.6vh;
-  padding: 3vh;
-  margin-top: 23.5vh;
+  padding: 3%;
+  position: absolute; top: 25%; left: 33%; transform: translate(-50%,-50%);
   background-color:rgb(255, 245, 216);
   border-width: 0.87vh;
   border-style: ridge;
   border-color: rgb(255, 163, 186);
   outline:  8px solid rgb(255, 226, 192);
-  height: 20vh;
-  width: 61vh;
+  margin-bottom: 4%;
+  height: 40%;
+  width: 55%;
 }
 
 #bottom-text{
   font-family:'Courier New', Courier, monospace, bold;
-  text-align:center;
   line-height: 2;
   text-align: left;
   font-size: 1.6vh;
-  padding: 3vh;
-  margin-top: 5vh;
+  padding: 3%;
+  position: absolute; top: 63%; left: 33%; transform: translate(-50%,-50%);
   background-color:rgb(255, 245, 216);
   border-width: 0.87vh;
   border-style: ridge;
   border-color: rgb(255, 163, 186);
   outline:  8px solid rgb(255, 226, 192);
-  height: 43vh;
-  width: 61vh;
+  height: 15%;
+  width: 55%;
 }
 
 

@@ -178,18 +178,18 @@ marquee {
 
 #three{
   font-family: 'Courier New', Courier, monospace, bold;
-    line-height: 2;
-    text-align: left;
-    font-size: 1.6vh;
-    padding: 3%;
-    background-color: rgb(255, 245, 216);
-    border-width: 0.87vh;
-    border-style: ridge;
-    border-color: rgb(194, 154, 145);
-    outline: 8px solid rgb(255, 226, 192);
-    height: 35%;
-    width: 45%;
-    transform: translate(0%, 170%);
+  line-height: 2;
+  text-align: left;
+  font-size: 1.6vh;
+  padding: 3%;
+  background-color: rgb(255, 245, 216);
+  border-width: 0.87vh;
+  border-style: ridge;
+  border-color: rgb(194, 154, 145);
+  outline: 8px solid rgb(255, 226, 192);
+  height: min-content;
+  width: 45%;
+  transform: translate(0%, 510%);
 }
 #bottom-text{
   font-family:'Courier New', Courier, monospace, bold;

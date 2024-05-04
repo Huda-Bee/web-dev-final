@@ -3,7 +3,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light ;
   color: rgba(255, 255, 255, 0.87);
   background-image: url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\images\polkadot.png");
@@ -15,13 +14,12 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #292938;
   text-decoration: inherit;
 }
 a:hover {
   color: #535bf2;
 }
-
 body {
   margin: 0 auto;
   min-height: 150vh; 
@@ -39,12 +37,11 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   text-align:center;
-  border: 1vh ridge rgb(194, 154, 145); border-radius: 15px;
+  border: 1vh ridge rgb(194, 154, 145); 
   background-color: rgb(255, 245, 239);
   background-image: url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\banner1.gif") ;
   width: 155vh;
 }
-
 h2{
   font-size: 6vh;
   font-family: 'monospace';
@@ -73,21 +70,20 @@ ul{
     padding-inline-start: 25%;
     unicode-bidi: isolate;
 }
-
 .navigation {
   font-size: 100%;
   font-family: Lucida Console;
   text-align: center;
-  color: rgb(151, 9, 9);
   position:absolute;
   overflow: hidden; 
   top: 50%; left: 10%; transform: translate(-50%, -50%);
   width: 12%;
   height: 90%;
+  padding-top: 0.32vh;
   margin: 0 auto; padding: 0 auto;
   background: rgb(255, 226, 210);
   border-style: ridge;
-  border-color:  rgb(255, 163, 186);
+  border-color:  rgb(194, 154, 145);
   border-width: 0.87vh;
   outline:  8px solid rgb(255, 226, 192);
   box-sizing: border-box;
@@ -96,28 +92,17 @@ ul{
 
 p{
   font-size: 20px;
-  color: rgb(82, 17, 17);
+  color: rgb(94, 73, 73);
   float: bottom;
   margin-left: 2vh;
-}
-
-#one{
-  font-family:'Lucida Console'; font-size: 2.25vh; color: rgb(116, 97, 100);
-  line-height: 3.5; text-align:left;
-  position: absolute; top:37.1%; left: 81%; transform: translate(-50%,-50%);
-  background-color:rgb(255, 245, 216);
-  border-style: ridge;
-  border-color:  rgb(255, 163, 186);
-  border-width: 0.87vh;
-  outline:  8px solid rgb(255, 226, 192);
-  height: 63.8%;
-  width: 17.8%;
-  padding: 4%;
 }
 
 #divi-one {
   background-image: url("C:\Users\X1\Desktop\Amarrah Huda proj\web-dev-final\my-react-app\src\assets\choco.gif");
   position: absolute;
+  border-radius: 30px;
+  outline: 3px solid rgb(104, 65, 65);
+  box-shadow: 1px 1px;
   top: 40%; left: 46.5%; transform: translate(-50%, -50%);
   z-index: 1;
   width: 45%;
@@ -149,7 +134,6 @@ marquee {
 
 }
 
-
 #strawberry{
   position:absolute;
   overflow: hidden; 
@@ -162,9 +146,19 @@ marquee {
   border: ridge 1vh rgb(194, 154, 145);
 }
 
-
-
-
+#one{
+  font-family:'Lucida Console'; font-size: 2.25vh; color: rgb(116, 97, 100);
+  line-height: 3.5; text-align:left;
+  position: absolute; top:37.1%; left: 81%; transform: translate(-50%,-50%);
+  background-color:rgb(255, 245, 216);
+  border-style: ridge;
+  border-color:  rgb(194, 154, 145);
+  border-width: 0.87vh;
+  outline:  8px solid rgb(255, 226, 192);
+  height: 63.8%;
+  width: 17.8%;
+  padding: 4%;
+}
 #two{
   font-family:'Courier New', Courier, monospace, bold;
   line-height: 2;
@@ -175,30 +169,27 @@ marquee {
   background-color:rgb(255, 245, 216);
   border-width: 0.87vh;
   border-style: ridge;
-  border-color: rgb(255, 163, 186);
+  border-color: rgb(194, 154, 145);
   outline:  8px solid rgb(255, 226, 192);
   margin-bottom: 4%;
   height: 40%;
   width: 55%;
 }
-
 #bottom-text{
   font-family:'Courier New', Courier, monospace, bold;
   line-height: 2;
   text-align: left;
   font-size: 1.6vh;
   padding: 3%;
-  position: absolute; top: 63%; left: 33%; transform: translate(-50%,-50%);
+  position: absolute; top: 62%; left: 33%; transform: translate(-50%,-50%);
   background-color:rgb(255, 245, 216);
   border-width: 0.87vh;
   border-style: ridge;
-  border-color: rgb(255, 163, 186);
+  border-color: rgb(194, 154, 145);
   outline:  8px solid rgb(255, 226, 192);
-  height: 15%;
+  height: 16.7%;
   width: 55%;
 }
-
-
 
 button {
   border-radius: 8px;

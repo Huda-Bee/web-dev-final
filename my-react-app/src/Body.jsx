@@ -11,7 +11,7 @@ function Body() {
                     <p id="strawberry">
                         <p id="one">Hello!!!<br/>Bye!!!</p>
                         <p id="two"> Hi! My name's Amarrah, and I'm a BioE major at UC Berkeley. I enjoy photography, visiting new cafes, reading, and maybe an edible to end my day...</p>
-                        <p id = "three">Hi! My name's Huda, I'm a CivE major at UC Berkeley, I enjoy reading, watching movies, and taking film photos!</p>
+                        <p id = "two">Hi! My name's Huda, I'm a CivE major at UC Berkeley, I enjoy reading, watching movies, and taking film photos!</p>
                         <p id ="bottom-text"> Hello, I'm repurposing this for another website so you can ignore the button cause I want to put a giant custom button and my cashapp on the messagegit but I'm too tired to do it right now.. </p>
                         <h3 id="button1" onclick="myButton">Click here!</h3>
                     </p>

@@ -189,7 +189,7 @@ marquee {
     outline: 8px solid rgb(255, 226, 192);
     height: 100px;
     width: 45%;
-    transform: translate(0%, 280%);
+    transform: translate(0%, 30%);
 }
 #bottom-text{
   font-family:'Courier New', Courier, monospace, bold;

@@ -175,6 +175,22 @@ marquee {
   height: 40%;
   width: 55%;
 }
+
+#three{
+  font-family:'Courier New', Courier, monospace, bold;
+  line-height: 2;
+  text-align: left;
+  font-size: 1.6vh;
+  padding: 20%;
+  background-color:rgb(255, 245, 216);
+  border-width: 0.87vh;
+  border-style: ridge;
+  border-color: rgb(194, 154, 145);
+  outline:  8px solid rgb(255, 226, 192);
+  margin-bottom: 4%;
+  height: 40%;
+  width: 55%;
+}
 #bottom-text{
   font-family:'Courier New', Courier, monospace, bold;
   line-height: 2;
